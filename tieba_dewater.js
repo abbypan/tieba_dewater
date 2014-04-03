@@ -6,8 +6,8 @@ function extract_floor_info(bot) {
     var info = bot;
     var re = new Object;
     re["poster"] = info.find('li.d_name').text();
-    re["time"] = info.find('ul.p_tail li').eq(2).text();
-    re["id"] = info.find('ul.p_tail li').eq(1).text().replace(/楼.*$/,'');
+    re["time"] = info.find('ul.p_tail li').eq(1).text();
+    re["id"] = info.find('ul.p_tail li').eq(0).text().replace(/楼.*$/,'');
     re["content"] = info.find('div.d_post_content').html().
         replace(/<\/?font[^>]*>/g, '');
     re["word_num"] = re["content"].replace('<[^>]+>','').length;
