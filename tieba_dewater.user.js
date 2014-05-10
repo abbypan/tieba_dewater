@@ -18,7 +18,9 @@
 //
 // --------------------------------------------------------------------
 
-function add_js_content(text){
+function add_js_file(js) {
+    var text = GM_getResourceText(js);
+    
     var add = document.createElement('script');
     add.setAttribute('type', "text/javascript");
     add.appendChild(document.createTextNode(text));
@@ -27,18 +29,8 @@ function add_js_content(text){
     ins.appendChild(add);
 }
 
-function add_js_file(js) {
-    var text = GM_getResourceText(js);
-    add_js_content(text);
-}
 
-(function(){
-    if (typeof unsafeWindow.jQuery == 'undefined') {
-        add_js_file('jquery');
-    }
-    GM_wait();
-})();
-
+// Check if jQuery's loaded
 function GM_wait() {
     if (typeof unsafeWindow.jQuery == 'undefined') {
         window.setTimeout(GM_wait, 100);
@@ -47,3 +39,12 @@ function GM_wait() {
         add_js_file('bbs_dewater');
     }
 }
+
+// Add jQuery
+(function(){
+    if (typeof unsafeWindow.jQuery == 'undefined') {
+        add_js_file('jquery');
+    }
+    GM_wait();
+})();
+
