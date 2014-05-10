@@ -11,7 +11,7 @@
 // @include       http://tieba.baidu.com/*
 // @resource      jquery http://code.jquery.com/jquery-latest.min.js
 // @resource      tieba_dewater https://raw.github.com/abbypan/tieba_dewater/master/tieba_dewater.js
-// @resource      bbs_dewater https://raw.github.com/abbypan/zhd_dewater/master/bbs_dewater.js
+// @resource      bbs_dewater https://raw.github.com/abbypan/bbs_dewater/master/bbs_dewater.js
 // @downloadURL   http://userscripts.org/scripts/source/443517.user.js
 // @updateURL     http://userscripts.org/scripts/source/443517.meta.js
 // ==/UserScript==
