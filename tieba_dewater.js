@@ -10,7 +10,6 @@ function extract_floor_info(bot) {
     re["id"] = info.find('ul.p_tail li').eq(0).text().replace(/楼.*$/,'');
     re["content"] = info.find('div.d_post_content').html().
         replace(/<\/?font[^>]*>/g, '');
-    re["word_num"] = re["content"].replace('<[^>]+>','').length;
     return re;
 }
 
@@ -25,7 +24,7 @@ function page_charset() {
 }
 
 function get_topic_name() {
-    var topic = $('h1').text();
+    var topic = $('h1').text() || $('h3').text();
     return topic;
 }
 
