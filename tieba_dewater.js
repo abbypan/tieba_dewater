@@ -28,7 +28,7 @@ function page_charset() {
 }
 
 function get_topic_name() {
-    var topic = $('h1').text();
+    var topic = $('h1').text() || $('h3').text();
     return topic;
 }
 
