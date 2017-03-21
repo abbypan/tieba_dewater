@@ -10,8 +10,8 @@
 // @grant         GM_getResourceText
 // @include       http://tieba.baidu.com/*
 // @resource      jquery http://code.jquery.com/jquery-latest.min.js
-// @resource      tieba_dewater https://github.com/abbypan/tieba_dewater/raw/master/tieba_dewater.js
-// @resource      bbs_dewater https://github.com/abbypan/bbs_dewater/raw/master/bbs_dewater.js
+// @resource      tieba_dewater https://raw.githubusercontent.com/abbypan/tieba_dewater/master/tieba_dewater.js
+// @resource      bbs_dewater https://raw.githubusercontent.com/abbypan/bbs_dewater/master/bbs_dewater.js
 // ==/UserScript==
 //
 // --------------------------------------------------------------------
