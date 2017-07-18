@@ -3,7 +3,7 @@ tieba_dewater
 
 百度贴吧 贴子脱水
 
-安装：http://userscripts.org/scripts/show/443517
+安装：[tieba-dewater](https://greasyfork.org/zh-CN/scripts/4078-tieba-dewater)
 
 结合 [Save Back to File from DOM](https://addons.mozilla.org/zh-CN/firefox/addon/save-back-to-file-from-dom/?src=api) 扩展就可以保存脱水后的贴子到本地
 
