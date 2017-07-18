@@ -22,9 +22,7 @@ function floor_path() {
 }
 
 function page_charset() {
-    var h = $('meta').attr('charset');
-    if(!h) return 'gb2312';
-    return h;
+    return 'utf-8';
 }
 
 function get_topic_name() {
