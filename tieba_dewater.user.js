@@ -9,6 +9,7 @@
 // @copyright     2014, Abby Pan (http://abbypan.github.io/) 
 // @grant         GM_getResourceText
 // @include       http://tieba.baidu.com/*
+// @include       https://tieba.baidu.com/*
 // @resource      jquery http://code.jquery.com/jquery-latest.min.js
 // @resource      tieba_dewater https://raw.githubusercontent.com/abbypan/tieba_dewater/master/tieba_dewater.js
 // @resource      bbs_dewater https://raw.githubusercontent.com/abbypan/bbs_dewater/master/bbs_dewater.js
