@@ -3,7 +3,7 @@
 // ==UserScript==
 // @name          tieba_dewater 
 // @namespace     http://abbypan.github.io/
-// @version       0.1
+// @version       0.2
 // @author        Abby Pan (abbypan@gmail.com)
 // @description   百度贴吧 贴子脱水
 // @copyright     2014, Abby Pan (http://abbypan.github.io/) 
