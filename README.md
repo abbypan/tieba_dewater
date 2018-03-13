@@ -1,11 +1,9 @@
 tieba_dewater
 =============
 
-百度贴吧 贴子脱水
+百度贴吧 贴子脱水，支持保存脱水后的贴子到本地
 
 安装：[tieba-dewater](https://greasyfork.org/zh-CN/scripts/4078-tieba-dewater)
-
-结合 [Save Back to File from DOM](https://addons.mozilla.org/zh-CN/firefox/addon/save-back-to-file-from-dom/?src=api) 扩展就可以保存脱水后的贴子到本地
 
 以 飘灯 贴吧 的 [乱过江](http://tieba.baidu.com/p/673372712) 为例
 
@@ -14,5 +12,3 @@ tieba_dewater
 
 脱水后的贴子
 ![thread](dewater_thread.png)
-
-
