@@ -3,8 +3,6 @@ tieba_dewater
 
 百度贴吧 贴子脱水，支持保存脱水后的贴子到本地
 
-安装：[tieba-dewater](https://greasyfork.org/zh-CN/scripts/4078-tieba-dewater)
-
 以 飘灯 贴吧 的 [乱过江](http://tieba.baidu.com/p/673372712) 为例
 
 贴子内添加脱水按钮
